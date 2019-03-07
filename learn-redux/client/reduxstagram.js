@@ -4,5 +4,8 @@ import { render } from 'react-dom';
 // import css
 import css from './styles/style.styl';
 
-render(<p>hello world</p>, document.getElementById('root'));
+// Import Components
+import Main from './components/Main';
+
+render(<Main/>, document.getElementById('root'));
 
